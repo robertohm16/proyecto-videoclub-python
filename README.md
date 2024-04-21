@@ -9,32 +9,33 @@ Para ejecutar este proyecto localmente, siga estos pasos:
 
 Clona el repositorio en tu máquina local usando el siguiente comando:
 
-git clone https://github.com/robertohm16/proyecto-videoclub-python.git
+-  git clone https://github.com/robertohm16/proyecto-videoclub-python.git
 
 Navega hasta el directorio del proyecto:
 
-cd proyecto-videoclub-python
+-  cd proyecto-videoclub-python
 
 Crea un entorno virtual para aislar las dependencias del proyecto:
 
-python -m venv env
+- python -m venv env
 
 Activa el entorno virtual:
+
 En macOS y Linux
   
-  source env/bin/activate
+  -  source env/bin/activate
   
 En Windows
   
-  .\env\Scripts\activate
+  -  .\env\Scripts\activate
 
 Ejecutar el servidor local Flask
 
-python3 app.py
+- python3 app.py
 
 Ejecutar el microservicio
 
-docker build -t videoapp:latest .
+-  docker build -t videoapp:latest .
 
-docker run -p 4000:4000 videoapp:latest
+-  docker run -p 4000:4000 videoapp:latest
 
