@@ -29,6 +29,7 @@ En Windows
   .\env\Scripts\activate
 
 Ejecutar el servidor local Flask
+
 python3 app.py
 
 Ejecutar el microservicio
