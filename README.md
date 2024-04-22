@@ -1,9 +1,15 @@
-Instalación
+### Instalación
 
 Debe tener instalado
 - Docker
 - Python3
 - Navegador Web
+- Visual Code 
+  - Extensiones:
+    - SQLite Viewer
+    - Python
+    - GitLens — Git supercharged
+
 
 Para ejecutar este proyecto localmente, siga estos pasos:
 
